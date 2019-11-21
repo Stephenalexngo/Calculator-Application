@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    tools:context=".Checkout">
+
+    <TextView
+        android:id="@+id/topay"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/paying"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:hint="Your Money"
+        android:textColorHint="#000000"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/gototrans"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Done"
+        android:onClick="gototrans"/>
+
+    <Button
+        android:id="@+id/backer"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="BACK"
+        android:onClick="backer"/>
+</LinearLayout>

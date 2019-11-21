@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Andriod Challenge</string>
+
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Banana</item>
+        <item>Orange</item>
+    </string-array>
+</resources>
